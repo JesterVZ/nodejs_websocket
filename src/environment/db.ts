@@ -5,11 +5,11 @@ import {UserEntity} from "../domain/entity/user-entity";
 export const dbDatasourceOptions: DataSourceOptions = {
     // TODO: replace with your database configuration in the fields bellow:
     type: "mysql",
-    host: "localhost", //localhost
+    host: "46.19.65.86", //localhost
     port: 3306,
-    username: "root1",
-    password: "root",
-    database: "flutter_chat_app_with_nodejs",
+    username: "gen_user",
+    password: "ySx~[CGdCv9zlx",
+    database: "default_db",
 
     // No need to change this fields bellow
     synchronize: true,
